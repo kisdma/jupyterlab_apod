@@ -45,7 +45,9 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.1.0"
+    "@jupyterlab/application": "^3.2.8",
+    "@jupyterlab/apputils": "^3.2.8",
+    "@lumino/widgets": "^1.31.1"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.1.0",
@@ -67,7 +69,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "jupyterlab": { 
+  "jupyterlab": {
     "extension": true,
     "outputDir": "jupyterlab_apod/labextension"
   },
